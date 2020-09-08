@@ -51,7 +51,8 @@
     height: 566px;
     position: relative;
     top: -170px;
-    left:10%;
+    left:-37%;
+    margin:auto;
 }
 .detail2{
     text-align: center;
@@ -61,5 +62,6 @@
     height: 566px;
     position: relative;
     top: -700px;
-    left: 80%;
+    left: 37%;
+    margin:auto;
 }
