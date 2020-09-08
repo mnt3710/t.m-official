@@ -1,0 +1,65 @@
+.title{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 64px;
+}
+.logo{
+    font-size: 30px;
+    font-family: 'Cabin Sketch', cursive;;
+}
+.p1{
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.45em;
+    font-family: 'Cabin Sketch', cursive;
+    line-height: 0px;
+    position: relative;
+    top:190px;
+}
+.p2{
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0.45em;
+    font-family: 'Cabin Sketch', cursive;
+    line-height: 0px;
+    position: relative;
+    top:190px;
+}
+.p3{
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 0.45em;
+    font-family: 'Cabin Sketch', cursive;
+    line-height: 0px;
+    position: relative;
+    top:190px;
+}
+.p4{
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.45em;
+    font-family: 'Cabin Sketch', cursive;
+    line-height: 0px;
+    position: relative;
+    top:190px;
+}
+.detail1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Rock Salt', cursive;
+    width: 246px;
+    height: 566px;
+    position: relative;
+    top: -170px;
+    left:10%;
+}
+.detail2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Rock Salt', cursive;
+    width: 246px;
+    height: 566px;
+    position: relative;
+    top: -700px;
+    left: 80%;
+}
