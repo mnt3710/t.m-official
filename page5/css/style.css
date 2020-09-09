@@ -1,3 +1,84 @@
 .body{
     background-image: url(../../page1/css/bg.png);
 }
+.menu1{
+    text-align:center;
+    position: relative;
+    left: 65%;
+    top: -65px;
+    color: white;
+    width:10%;
+    height: 70px;
+    margin: auto;
+    font-size: 24px;
+    line-height: 20px;
+    font-family: 'Linden Hill', serif;
+    text-decoration:none;
+}
+
+.menu2{
+    position: relative;
+    left: 74%;
+    top: -89px;
+    color: white;
+    width:10%;
+    height: 70px;
+    margin: auto;
+    font-size: 24px;
+    line-height: 20px;
+    font-family: 'Linden Hill', serif;
+    text-decoration:none;
+}
+.menu3{
+    position: relative;
+    left: 83%;
+    top: -113px;
+    color: white;
+    width:40%;
+    height: 70px;
+    margin: auto;
+    font-size: 24px;
+    line-height: 20px;
+    font-family: 'Linden Hill', serif;
+    text-decoration:none;
+}
+.menu4{
+    position: relative;
+    left: 92%;
+    top: -137px;
+    color: white;
+    width:40%;
+    height: 70px;
+    margin: auto;
+    font-size: 24px;
+    line-height: 20px;
+    font-family: 'Linden Hill', serif;
+    text-decoration:none;
+}
+.head{
+    background-color: black;
+    position: relative;
+    width: 102%;
+    height: 70px;
+    left: -8px;
+    top: -16px;
+}
+.logo{
+    text-align: left;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 30px;
+    color: white;
+    margin-top: 16px;
+    margin-left: 50px;
+    position: relative;
+    top: 16px;
+    left: auto;
+}
+.title{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 64px;
+}
+body{
+    margin: auto;
+}
