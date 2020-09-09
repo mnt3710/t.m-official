@@ -163,7 +163,17 @@ body{
     overflow: hidden;
     margin: auto;
 }
-.detail1.#NAME
-{
-    lighting-color: white;
+.ghost{
+    position: relative;
+    top: -2950px;
+    left: 91%;
+}
+.tm{
+    color: rgba(0, 0, 0, 0.04);
+    font-size: 15vw;
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    position: relative;
+    top: -3000px;
+    transform: rotate(3.36deg);
 }
