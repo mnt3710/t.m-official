@@ -3,10 +3,7 @@
     text-align: center;
     font-size: 64px;
 }
-.logo{
-    font-size: 30px;
-    font-family: 'Cabin Sketch', cursive;;
-}
+
 .p1{
     font-size: 18px;
     text-align: center;
@@ -53,6 +50,7 @@
     top: -170px;
     left:-37%;
     margin:auto;
+    background: rgba(221, 255, 177, 0.2);
 }
 .detail2{
     text-align: center;
@@ -64,4 +62,77 @@
     top: -700px;
     left: 37%;
     margin:auto;
+}
+.menu1{
+    text-align:center;
+    position: relative;
+    left: 65%;
+    top: -65px;
+    color: white;
+    width:10%;
+    height: 70px;
+    margin: auto;
+    font-size: 24px;
+    line-height: 20px;
+    font-family: 'Linden Hill', serif;
+    text-decoration:none;
+}
+
+.menu2{
+    position: relative;
+    left: 74%;
+    top: -89px;
+    color: white;
+    width:10%;
+    height: 70px;
+    margin: auto;
+    font-size: 24px;
+    line-height: 20px;
+    font-family: 'Linden Hill', serif;
+    text-decoration:none;
+}
+.menu3{
+    position: relative;
+    left: 83%;
+    top: -113px;
+    color: white;
+    width:40%;
+    height: 70px;
+    margin: auto;
+    font-size: 24px;
+    line-height: 20px;
+    font-family: 'Linden Hill', serif;
+    text-decoration:none;
+}
+.menu4{
+    position: relative;
+    left: 92%;
+    top: -137px;
+    color: white;
+    width:40%;
+    height: 70px;
+    margin: auto;
+    font-size: 24px;
+    line-height: 20px;
+    font-family: 'Linden Hill', serif;
+    text-decoration:none;
+}
+.head{
+    background-color: black;
+    position: relative;
+    width: 102%;
+    height: 70px;
+    left: -8px;
+    top: -16px;
+}
+.logo{
+    text-align: left;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 30px;
+    color: white;
+    margin-top: 16px;
+    margin-left: 50px;
+    position: relative;
+    top: 16px;
+    left: auto;
 }
