@@ -82,3 +82,82 @@
 body{
     margin: auto;
 }
+.qa{
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    font-size: 2vw;
+    position: relative;
+    top: 110px;
+}
+.mail{
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    font-size: 2vw;
+    position: relative;
+    top: 170px;
+}
+.ins_img{
+    position: relative;
+    top: 435px;
+    left: 16%;
+}
+.ins_char{
+    font-size: 1.5vw;
+    font-family: 'Rock Salt', cursive;
+    position: relative;
+    top: 410px;
+    left: 18%;
+    text-decoration: none;
+    color: black;
+}
+.twi_img{
+    position: relative;
+    top: 435px;
+    left: 26%;
+}
+.twi_char{
+    font-size: 1.5vw;
+    font-family: 'Rock Salt', cursive;
+    position: relative;
+    top: 410px;
+    left: 28%;
+    text-decoration: none;
+    color: black;
+}
+.git_img{
+    position: relative;
+    top: 455px;
+    left: 36%;
+}
+.git_char{
+    font-size: 1.5vw;
+    font-family: 'Rock Salt', cursive;
+    position: relative;
+    top: 410px;
+    left: 37%;
+    text-decoration: none;
+    color: black;
+}
+.qii_img{
+    position: relative;
+    top: 650px;
+    left: -27%;
+    margin-bottom: 70px;
+}
+.qii_char{
+    font-size: 1.5vw;
+    font-family: 'Rock Salt', cursive;
+    position: relative;
+    top: 555px;
+    left: -26%;
+    text-decoration: none;
+    color: black;
+}
+html{
+    overflow: auto;
+}
+body{
+    overflow: hidden;
+    margin: auto;
+    height: 1400px;
+}

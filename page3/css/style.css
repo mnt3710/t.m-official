@@ -79,3 +79,10 @@
 body{
     margin: auto;
 }
+html{
+    overflow: auto;
+}
+body{
+    overflow: hidden;
+    margin: auto;
+}
