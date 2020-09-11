@@ -85,4 +85,46 @@ html{
 body{
     overflow: hidden;
     margin: auto;
+    height: auto;
+}
+main>div>div{
+    width: 400px;
+    height: 160px;
+    border-radius: 50%;
+    filter: blur(150px);
+    background-color: rgb(63, 63, 63);
+    position: relative;
+}
+.circle1{
+    top: 150px;
+    left: 25%;
+    background-color: crimson;
+}
+.circle2{
+    top: 50px;
+    left: 45%;
+}
+.circle3{
+    top: 500px;
+    left: 25%;
+}
+.circle4{
+    top: 400px;
+    left: 45%;
+}
+.circle5{
+    top: 500px;
+    left: 25%;
+}
+.circle6{
+    top: 500px;
+    left: 45%;
+}
+.main{
+    position: relative;
+    bottom: 120px;
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
 }
