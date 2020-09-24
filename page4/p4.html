@@ -8,21 +8,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cabin+Sketch&family=Linden+Hill&family=Rock+Salt&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="head">
+    <header id="header">
         <p class="logo">T.M OFFICIAL</p>
-        <a href="../page2/p2.html" class="menu1"><br>about</a>
-        <a href="../page3/p3.html" class="menu2"><br>work</a>
-        <a href="../page4/p4.html" class="menu3"><br>private</a>
-        <a href="../page5/p5.html" class="menu4"><br>other</a>
+        <a href="../page2/p2.html" class="menu menu1">about</a>
+        <a href="../page3/p3.html" class="menu menu2">work</a>
+        <a href="../page4/p4.html" class="menu menu3">private</a>
+        <a href="../page5/p5.html" class="menu menu4">other</a>
+
+        <div class="smart_var">
+            <nav class="global-nav">
+                <ul class="global-nav__list">
+                  <li class="global-nav__item g1"><a href="../page2/p2.html">about</a></li>
+                  <li class="global-nav__item g2"><a href="../page3/p3.html">work</a></li>
+                  <li class="global-nav__item g3"><a href="../page4/p4.html">private</a></li>
+                  <li class="global-nav__item g4"><a href="../page5/p5.html">other</a></li>
+                </ul>
+              </nav>
+              <div class="hamburger" id="js-hamburger">
+                <span class="hamburger__line hamburger__line--1"></span>
+                <span class="hamburger__line hamburger__line--2"></span>
+                <span class="hamburger__line hamburger__line--3"></span>
+              </div>
+              <div class="black-bg" id="js-black-bg"></div>
+              <script src="../ham.js"></script>
+              </div>
     </header>
+    <script src="../main.js"></script>
     <div class="title">-PRIVATE-</div>
     <p class="oosu"><br>OOSUKA</p>
-    <img class="oosu1" src="./oosuka_1.jpg">
-    <img class="oosu2" src="./oosuka_2.jpg">
+    <img class="oosu1 img" src="./oosuka_1.jpg">
+    <img class="oosu2 img" src="./oosuka_2.jpg">
     <p class="chi">IN CHIBA</p>
-    <img class="chiba" src="./chiba.jpg">
+    <img class="chiba img" src="./chiba.jpg">
     <p class="aizu">IN AIZU</p>
-    <img class="aizu1" src="./aizu_1.jpg">
-    <img class="aizu2" src="./aizu_2.jpg">
+    <img class="aizu1 img" src="./aizu_1.jpg">
+    <img class="aizu2 img" src="./aizu_2.jpg">
+    <div class="bottom">
+        <div class="bot_tm">T.M OFFICIAL</div>
+        <div class="bot_det"><span class="adr">〒999-9999 福島県会津若松市0-0<br><br></span>
+        <span class="tel"> TEL 123-4567-8910</span></div>
+        <a href="https://twitter.com/mnt1216"><img class="twi" src="../twitter.jpg"></img></a>
+        <a href="https://www.instagram.com/t.minato3710/"><img class="ins" src="../instagram.jpg"></img></a>
+        <a href="https://github.com/mnt3710"> <img class="git" src="../github.jpg"></img></a>
+        <hr class="border"><img src="../bot_top.jpg" class="bot_top" id="js-bot-button"></img>
+            <div class="my">my profile site</div>
+            <ul class="li">
+            <li><a class="bot1" href="../page2/p2.html">about</a></li>
+            <li><a class="bot2" href="../page3/p3.html">work</a></li>
+            <li><a class="bot3" href="../page4/p4.html"> private</a></li>
+            <li><a class="bot4" href="../page5/p5.html">other</a></li>
+            </ul>
+        <img src="../top.jpg" class="scroll-top" id="js-button"><i class="fa fa-chevron-up" aria-hidden="true"></i></img>
 </body>
 </html>
