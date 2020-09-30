@@ -1,0 +1,134 @@
+.main{
+    text-align: center;
+    font-size: 80px;
+    line-height: 147px;
+    font-family: 'The Girl Next Door', cursive;
+    color: #020202;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: 100px;
+    margin: auto;
+}
+.logo{
+    text-align: left;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 30px;
+    color: white;
+    margin-top: 16px;
+    margin-left: 50px;
+    position: relative;
+    top: 6px;
+    left: auto;
+    width: 300px;
+    margin-right: 0px;
+}
+
+#header {
+    background-color: black;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/*---------------ここから------------------*/
+.menu1,.menu2,.menu3,.menu4{
+    margin: auto;
+    font-size: 24px;
+    font-family: 'Linden Hill', serif;
+    text-decoration:none;
+    padding: 23px 35px 15px 35px;
+}
+.menu1{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    right: 368px;
+}
+.menu2{
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 250px;
+}
+.menu3{
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 117px;
+}
+.menu4{
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.menu1:hover,.menu2:hover,.menu3:hover,.menu4:hover{
+    font-weight: 500;
+    text-decoration: underline;
+}
+.menu1:hover,.menu2:hover,.menu3:hover,.menu4:hover{
+    background-color: #eee;
+    color: black;
+}
+
+/*------------ここまで------------------*/
+body{
+    background-image:url("./bg.png");
+    background-size: cover;
+    margin: auto;
+}
+.arrow{
+    position: relative;
+    top: 180px;
+    left: 47%;
+}
+.swipe{
+    font-size: 32px;
+    text-align: center;
+    font-family: 'The Girl Next Door', cursive;
+    margin: auto;
+    position: relative;
+    top: 190px;
+}
+html{
+    overflow: auto;
+}
+body{
+    overflow: hidden;
+    margin: auto;
+    height: 788px;
+}
+
+/* header>a{
+    position: relative;
+    color: white;
+    margin: auto;
+    font-size: 24px;
+    font-family: 'Linden Hill', serif;
+    text-decoration: none;
+    line-height: 20px;
+    height: 70px;
+}
+.menu1{
+    text-align:center;
+    left: 65%;
+    top: -65px;
+    width:10%;
+}
+
+.menu2{
+    left: 74%;
+    top: -89px;
+    width:10%;
+}
+.menu3{
+    left: 83%;
+    top: -113px;
+    width:40%;
+}
+.menu4{
+    left: 92%;
+    top: -137px;
+    width:40%;
+}
+こんな感じで書き換えられるらしい */
