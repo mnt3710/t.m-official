@@ -1,0 +1,455 @@
+.body{
+    background-image: url(../../page1/css/bg.png);
+}
+
+.mail_link{
+    color: black;
+    text-align: center;
+}
+.mail_link:hover{
+    font-size: 2.3vw;
+}
+
+.head-animation {
+    transform: translateY(-100%);
+}
+#header {
+    background-color: black;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    transition: .3s cubic-bezier(.4, 0, .2, 1);
+    width: 100%;
+    z-index: 199999;
+}
+.menu1,.menu2,.menu3,.menu4{
+    margin: auto;
+    font-size: 24px;
+    font-family: 'Linden Hill', serif;
+    text-decoration:none;
+    padding: 23px 35px 15px 35px;
+}
+.menu1{
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 368px;
+}
+.menu2{
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 250px;
+}
+.menu3{
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 117px;
+}
+.menu4{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.menu1:hover,.menu2:hover,.menu3:hover,.menu4:hover{
+    font-weight: 500;
+    text-decoration: underline;
+}
+.menu2:hover,.menu3:hover,.menu1:hover{
+    background-color: #eee;
+    color: black;
+}
+.logo{
+   text-align: left;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 30px;
+    color: white;
+    margin-top: 16px;
+    margin-left: 50px;
+    position: relative;
+    top: 6px;
+    left: auto;
+    width: 300px;
+    margin-right: 0px;
+}
+.title{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 64px;
+}
+.qa{
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    font-size: 2vw;
+    position: relative;
+    top: 110px;
+}
+.mail{
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    font-size: 2vw;
+    position: relative;
+    top: 170px;
+}
+.ins_img{
+    position: relative;
+    top: 435px;
+    left: 16%;
+}
+.ins_char{
+    font-size: 1.5vw;
+    font-family: 'Rock Salt', cursive;
+    position: relative;
+    top: 410px;
+    left: 18%;
+    text-decoration: none;
+    color: black;
+}
+.twi_img{
+    position: relative;
+    top: 435px;
+    left: 26%;
+}
+.twi_char{
+    font-size: 1.5vw;
+    font-family: 'Rock Salt', cursive;
+    position: relative;
+    top: 410px;
+    left: 28%;
+    text-decoration: none;
+    color: black;
+}
+.git_img{
+    position: relative;
+    top: 455px;
+    left: 36%;
+}
+.git_char{
+    font-size: 1.5vw;
+    font-family: 'Rock Salt', cursive;
+    position: relative;
+    top: 410px;
+    left: 37%;
+    text-decoration: none;
+    color: black;
+}
+.qii_img{
+    position: relative;
+    top: 650px;
+    left: -27%;
+    margin-bottom: 70px;
+}
+.qii_char{
+    font-size: 1.5vw;
+    font-family: 'Rock Salt', cursive;
+    position: relative;
+    top: 555px;
+    left: -26%;
+    text-decoration: none;
+    color: black;
+}
+
+.qii_char:hover,.twi_char:hover,.ins_char:hover,.git_char:hover{
+    text-decoration-line: underline;
+}
+
+html{
+    overflow: auto;
+}
+body{
+    overflow: hidden;
+    margin: auto;
+    height: 1800px;
+    position: relative;
+    top:70px;
+}
+
+
+.bottom{
+    background-color: #d6d6d6;
+    position: absolute;
+    bottom: 0px;
+    height: 50vw;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 1.3vw;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.twi,.ins,.git{
+    position: absolute;
+    bottom: 20px;
+    height: 45px;
+    width: 45px;
+}
+.twi{
+    right: 170px;
+}
+.ins{
+    right: 100px;
+}
+.git{
+    right: 30px;
+}
+
+.bot_tm{
+    font-size: 3vw;
+    font-family: 'Special Elite', cursive;
+    margin-top: 70px;
+}
+.li{
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.2vw;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.my{
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.6vw;
+}
+.bot_tm,.bot_det{
+    text-align:center;
+}
+.tel{
+    font-size: 1.5vw;
+}
+.adr{
+    margin-top: 1000px;
+}
+.scroll-top {
+    position: fixed;
+    right: 0px;
+    bottom: 10px;
+    z-index: 100;
+    background-color: #999;
+    opacity: .8;
+    border: none;
+    color: #fff;
+  }
+  .scroll-top:hover {
+    cursor: pointer;
+  }
+.bot_top{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 48%;
+    cursor: pointer;
+}
+.border{
+    position: relative;
+    top:40px
+}
+
+.bot1:hover,.bot2:hover,.bot3:hover,.bot4:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+@media(max-width:950px){
+    .global-nav {
+        position: fixed;
+        right: -320px; /* これで隠れる */
+        top: 0;
+        width: 250px; /* スマホに収まるくらい */
+        height: 100vh;
+        padding-top: 100px;
+        background-color: #fff;
+        transition: all .6s;
+        z-index: 200;
+      }
+      .hamburger {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 60px; /* クリックしやすいようにちゃんと幅を指定する */
+        height: 60px; /* クリックしやすいようにちゃんと高さを指定する */
+        z-index: 300;
+      }
+      .global-nav__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .global-nav__item {
+        text-align: center;
+        padding: 0 14px;
+      }
+      .global-nav__item a {
+        display: block;
+        padding: 8px 0;
+        border-bottom: 1px solid #eee;
+        text-decoration: none;
+        color: #111;
+        font-family: 'Linden Hill', serif;
+      }
+      .hamburger__line {
+        position: absolute;
+        left: 15px;
+        width: 30px;
+        height: 1px;
+        background-color: rgb(255, 255, 255);
+        transition: all .6s;
+      }
+      .hamburger__line--1 {
+        top: 21px;
+      }
+      .hamburger__line--2 {
+        top: 31px;
+      }
+      .hamburger__line--3 {
+        top: 41px;
+      }
+      .black-bg {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 100;
+        background-color: #000;
+        opacity: 0;
+        visibility: hidden;
+        transition: all .6s;
+        cursor: pointer;
+      }
+      /* 表示された時用のCSS */
+      .nav-open .global-nav {
+        right: 0;
+      }
+      .nav-open .black-bg {
+        opacity: .8;
+        visibility: visible;
+      }
+      .nav-open .hamburger__line--1 {
+        transform: rotate(45deg);
+        top: 30px;
+        background-color: black;
+      }
+      .nav-open .hamburger__line--2 {
+        width: 0;
+        left: 50%;
+      }
+      .nav-open .hamburger__line--3 {
+        transform: rotate(-45deg);
+        top: 30px;
+        background-color:black;
+      }
+      .g4{
+            background-color:rgba(0, 0, 0, 0.623);
+      }
+      .g4 a{
+          color: white;
+          border-bottom: none;
+      }
+
+      body{
+        height: 1300px;
+        top: 60px;
+    }
+
+      .menu{
+        display: none;
+        }
+
+        .title{font-size: 10vw;}
+        .bottom{height: 350px;}
+        .bot_top{
+            height: 30px;
+            width: 30px;
+            top:20px;
+        }
+
+        .bot_tm{margin-top:40px;}
+
+    .my{
+        position: relative;
+        top:20px;
+    }
+    .twi,.ins,.git{
+        height: 30px;
+        width: 30px;
+    }
+
+    .scroll-top{
+        height: 40px;
+        width: 140px;
+    }
+
+    .twi{right: 115px;}
+    .ins{right: 70px;}
+    .git{right: 25px;}
+    #header{
+        height: 60px;
+    }
+    .logo{
+        top:0px;
+    }
+
+    .ins_img,.twi_img{
+        height: 40px;
+        position: absolute;
+        left: 30%;
+    }
+    .ins_char,.twi_char,.qii_char,.git_char{
+        position: absolute;
+    }
+    .ins_img{
+        top:40%;
+    }
+    .ins_char{
+        top:40%;
+        left: 60%;
+    }
+    .twi_img{
+        top:45%;
+    }
+    .twi_char{
+        top:45%;
+        left: 61%;
+    }
+    .git_img{
+        position: absolute;
+        left: 27%;
+        top:49%;
+        height: 75px;
+    }
+    .qii_img{
+        position: absolute;
+        top:56%;
+        left: 22%;
+        height: 40px;
+    }
+    .git_char{top:51%;
+    left: 61.5%;}
+    .qii_char{top:56.5%;
+    left:63%}
+    .li{position: relative;
+        top: 30px;}
+
+}
+@media(min-width:950px){
+    .smart_var{
+        display: none;
+    }
+}
+
+@media(min-width:596px　max-width:950px){
+    .qii_img{left: 26%;}
+}
+
+@media(min-width:1500px){
+    body{
+        height: 2300px;
+    }
+    .bottom{
+        height: 900px;
+    }
+}
