@@ -48,13 +48,14 @@
     font-family: 'Cabin Sketch', cursive;
     font-size: 30px;
     color: white;
-    margin-top: 16px;
-    margin-left: 50px;
-    position: relative;
-    top: 6px;
-    left: auto;
-    width: 300px;
-    margin-right: 0px;
+    position: absolute;
+    top: -10px;
+    left: 80px;
+}
+.logo_img{
+    height: 46px;
+    width: auto;
+    padding: 12px;
 }
 html{
     overflow: auto;
@@ -79,6 +80,20 @@ main>div>div{
     left: 25%;
     background-color: crimson;
 }
+.circle1,.circle2,.circle3{
+    animation:anime 1.5s ease;
+}
+@keyframes anime{
+    0%{
+        opacity: 0;
+        top: 200px;
+    }
+    100%{
+        opacity:1;
+        top:150px;
+    }
+}
+
 .circle2{
     top: 50px;
     left: 45%;

@@ -63,17 +63,18 @@
     color: black;
 }
 .logo{
-   text-align: left;
+    text-align: left;
     font-family: 'Cabin Sketch', cursive;
     font-size: 30px;
     color: white;
-    margin-top: 16px;
-    margin-left: 50px;
-    position: relative;
-    top: 6px;
-    left: auto;
-    width: 300px;
-    margin-right: 0px;
+    position: absolute;
+    top: -10px;
+    left: 80px;
+}
+.logo_img{
+    height: 46px;
+    width: auto;
+    padding: 12px;
 }
 .title{
     font-family: 'Amatic SC', cursive;
@@ -93,6 +94,16 @@
     font-size: 2vw;
     position: relative;
     top: 170px;
+    animation:anime1 1s ease;
+}
+@keyframes anime1{
+    0%{
+        font-size: 0vw;
+        opacity: 0;
+    }
+    100%{
+        font-size: 2vw;
+    }
 }
 .ins_img{
     position: relative;

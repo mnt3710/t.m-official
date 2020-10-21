@@ -43,64 +43,58 @@
     font-family: 'Cabin Sketch', cursive;
     font-size: 30px;
     color: white;
-    margin-top: 16px;
-    margin-left: 50px;
-    position: relative;
-    top: 6px;
-    left: auto;
-    width: 300px;
-    margin-right: 0px;
+    position: absolute;
+    top: -10px;
+    left: 80px;
+}
+.logo_img{
+    height: 46px;
+    width: auto;
+    padding: 12px;
 }
 .title{
     font-family: 'Amatic SC', cursive;
     text-align: center;
     font-size: 64px;
 }
-.oosu,.oosu1,.oosu2,.chi,.chiba,.aizu,.aizu1,.aizu2{
+
+.explain{
+    text-align:center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3vw;
+}
+
+.oosu,.chi,.aizu{
     position: relative;
     bottom: 30px;
-}
-.oosu{
     font-family: 'Rock Salt', cursive;
     font-size: 1.8vw;
     text-align: center;
+    transition: 1.5s;
+    margin-top:200px;
 }
-.chi{
-    font-family: 'Rock Salt', cursive;
-    font-size: 1.8vw;
-    text-align: center;
-}
-.aizu{
-    font-family: 'Rock Salt', cursive;
-    font-size: 1.8vw;
-    text-align: center;
-}
+.oosu{margin-top:30px;}
 .img{
-    width: 23vw;
-    height: 30vw;
+    width: 28vw;
+    height: 35vw;
+    border-radius: 8px;
 }
-.oosu1{
-    left: 21%;
+
+.element1,.element2,.element3,.element4,.element5,.element6,.element7,.element8{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin-left: 100px;
+    margin-right:100px;
 }
-.oosu2{
-    left: 33%;
-}
-.chiba{
-    left: 39%;
-}
-.aizu1{
-    left: 21%;
-}
-.aizu2{
-    left: 33%;
-}
+.element4,.element6,.element7{margin-top: 30px;}
+
 html{
     overflow: auto;
 }
 body{
-    overflow: hidden;
     margin: auto;
-    height: 180vw;
+    height: 800px;
     position: relative;
     top:70px;
 }
@@ -120,8 +114,8 @@ body{
 .bottom{
     background-color: #d6d6d6;
     position: absolute;
-    bottom: 0px;
-    height: 40vw;
+    bottom: -6200px;
+    height:40vw;
     width: 100%;
     color: rgb(255, 255, 255);
     font-size: 1.3vw;
@@ -199,6 +193,18 @@ a{
 .bot1:hover,.bot2:hover,.bot3:hover,.bot4:hover{
     color: black;
     text-decoration: underline;
+}
+
+.js-animation{
+    opacity: 0;
+    visibility: hidden;
+    transform:translateY(40px);
+    transition: all 1.5s;
+}
+.js-animation.is-show{
+    opacity: 1;
+    visibility: visible;
+    transform:translateY(0px);
 }
 
 @media(max-width:950px){
@@ -302,13 +308,14 @@ a{
         height: 190vw;
         top: 60px;
     }
+    .bottom{height: 350px;}
+
 
       .menu{
         display: none;
         }
 
         .title{font-size: 10vw;}
-        .bottom{height: 350px;}
         .bot_top{
             height: 30px;
             width: 30px;

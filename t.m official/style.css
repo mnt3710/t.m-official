@@ -13,17 +13,18 @@ p>a{
     margin-top:180px;
 }
 .logo{
-    text-align: left;
-    font-family: 'Cabin Sketch', cursive;
-    font-size: 30px;
-    color: white;
-    margin-top: 16px;
-    margin-left: 50px;
-    position: relative;
-    top: 6px;
-    left: auto;
-    width: 300px;
-    margin-right: 0px;
+  text-align: left;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: -10px;
+  left: 80px;
+}
+.logo_img{
+  height: 46px;
+  width: auto;
+  padding: 12px;
 }
 
 #header {
@@ -227,13 +228,6 @@ body{
         transform: rotate(-45deg);
         top: 30px;
         background-color:black;
-      }
-      .g1{
-            background-color:rgba(0, 0, 0, 0.623);
-      }
-      .g1 a{
-          color: white;
-          border-bottom: none;
       }
       #header{
         height: 60px;

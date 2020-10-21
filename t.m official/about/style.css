@@ -4,6 +4,12 @@
     font-size: 64px;
 }
 
+.logo_img{
+    height: 46px;
+    width: auto;
+    padding: 12px;
+}
+
 .p1{
     font-size: 1.5vw;
     text-align: center;
@@ -12,6 +18,7 @@
     line-height: 0px;
     position: relative;
     top:370px;
+    animation: p1 1s ease;
 }
 .p2{
     font-size: 2.5vw;
@@ -21,6 +28,7 @@
     line-height: 0px;
     position: relative;
     top:370px;
+    animation: p2 1.35s ease;
 }
 .p3{
     font-size: 3.5vw;
@@ -30,6 +38,7 @@
     line-height: 0px;
     position: relative;
     top:370px;
+    animation: p3 1.8s ease;
 }
 .p4{
     font-size: 4.5vw;
@@ -39,6 +48,28 @@
     line-height: 0px;
     position: relative;
     top:370px;
+    animation: p4 2.2s ease;
+}
+@keyframes p1{
+    0%{opacity: 0;
+        top: 100px;
+    }
+    100%{top:370px;}
+}@keyframes p2{
+    0%{opacity: 0;
+        top: 100px;
+    }
+    100%{top:370px;}
+}@keyframes p3{
+    0%{opacity: 0;
+        top: 100px;
+    }
+    100%{top:370px;}
+}@keyframes p4{
+    0%{opacity: 0;
+        top: 45px;
+    }
+    100%{top:370px;}
 }
 
 .head-animation {
@@ -100,13 +131,9 @@
     font-family: 'Cabin Sketch', cursive;
     font-size: 30px;
     color: white;
-    margin-top: 16px;
-    margin-left: 50px;
-    position: relative;
-    top: 6px;
-    left: auto;
-    width: 300px;
-    margin-right: 0px;
+    position: absolute;
+    top: -10px;
+    left: 80px;
 }
 
 .box1,.box2{
@@ -120,11 +147,31 @@
     background: rgba(221, 255, 177, 0.2);
     top: -210px;
     right: 70%;
+    animation: anime1 1s ease;
+}
+@keyframes anime1{
+    0%{
+        right:50%;
+        opacity: 0%;
+    }
+    100%{
+        right:70%;
+    }
 }
 .box2{
     background: rgba(146, 255, 229, 0.1);
     top: -1700px;
     left: 70%;
+    animation:anime2 1s ease;
+}
+@keyframes anime2{
+    0%{
+        left:50%;
+        opacity: 0%;
+    }
+    100%{
+        left:70%;
+    }
 }
 
 .detail1,.detail2{
@@ -139,10 +186,31 @@
 .detail1{
     top: -850px;
     left:-37%;
+    animation:anime3 1s ease;
 }
+@keyframes anime3{
+    0%{
+        opacity:0;
+        left:-50%;
+    }
+    100%{
+        left:-37%;
+    }
+}
+
 .detail2{
     top: -2300px;
     left: 37%;
+    animation: anime4 1s ease;
+}
+@keyframes anime4{
+    0%{
+        opacity: 0;
+        left: 50%;
+    }
+    100%{
+        left: 37%;
+    }
 }
 
 html{
