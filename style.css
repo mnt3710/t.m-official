@@ -89,12 +89,13 @@ body{
     margin-top: auto;
     opacity: 0.8;
 }
-.swipe{
+.click{
     font-size: 42px;
     text-align: center;
-    margin-top:40px;
-    color: #0000009f;
+    margin-top:100px;
+    color: #ff00009f;
     font-family: 'Allura', cursive;
+    text-decoration: none;
 }
 html{
     overflow: auto;
