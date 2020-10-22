@@ -87,6 +87,7 @@
     font-size: 2vw;
     position: relative;
     top: 110px;
+    animation:anime1 1s ease;
 }
 .mail{
     font-family: 'Rock Salt', cursive;
