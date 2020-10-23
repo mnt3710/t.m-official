@@ -2,14 +2,6 @@
     background-image: url(../../page1/css/bg.png);
 }
 
-.mail_link{
-    color: black;
-    text-align: center;
-}
-.mail_link:hover{
-    font-size: 2.3vw;
-}
-
 .head-animation {
     transform: translateY(-100%);
 }
@@ -89,6 +81,9 @@
     top: 110px;
     animation:anime1 1s ease;
 }
+.mail>a{color:black;
+font-size: 2.4vw;
+animation:anime1 1s ease;}
 .mail{
     font-family: 'Rock Salt', cursive;
     text-align: center;
@@ -402,7 +397,7 @@ a{
         height: 60px;
     }
     .logo{
-        top:0px;
+        top:-13px;
     }
 
     .ins_img,.twi_img{

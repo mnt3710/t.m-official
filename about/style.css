@@ -258,19 +258,14 @@ body{
 }
 
 .twi,.ins,.git{
-    position: absolute;
-    bottom: 20px;
     height: 45px;
     width: 45px;
+    margin: 15px;
 }
-.twi{
-    right: 170px;
-}
-.ins{
-    right: 100px;
-}
-.git{
-    right: 30px;
+
+.sns{
+    display: flex;
+    justify-content: center;
 }
 
 .bot_tm{
@@ -473,7 +468,7 @@ a{
         height: 60px;
     }
     .logo{
-        top:0px;
+        top:-13px;
     }
     .pro{
         top:-300px;
@@ -532,21 +527,12 @@ a{
         position: relative;
         top:20px;
     }
-    .twi,.ins,.git{
-        height: 30px;
-        width: 30px;
-    }
 
     .scroll-top{
         height: 40px;
         width: 140px;
     }
 
-    .twi{right: 115px;}
-    .ins{right: 70px;}
-    .git{right: 25px;}
-    .li{position: relative;
-    top: 30px;}
 
 }
 

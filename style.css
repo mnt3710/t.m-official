@@ -236,7 +236,7 @@ body{
         height: 60px;
     }
     .logo{
-        top:0px;
+        top:-13px;
     }
     .main{
         z-index: 0;
