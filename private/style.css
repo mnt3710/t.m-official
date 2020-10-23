@@ -134,19 +134,14 @@ body{
 }
 
 .twi,.ins,.git{
-    position: absolute;
-    bottom: 20px;
     height: 45px;
     width: 45px;
+    margin: 15px;
 }
-.twi{
-    right: 170px;
-}
-.ins{
-    right: 100px;
-}
-.git{
-    right: 30px;
+
+.sns{
+    display: flex;
+    justify-content: center;
 }
 
 .bot_tm{
