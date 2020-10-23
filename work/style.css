@@ -249,6 +249,10 @@ a{
 }
 
 @media(max-width:950px){
+.li{
+    margin-top:25px;
+}
+
     .global-nav {
         position: fixed;
         right: -320px; /* これで隠れる */
@@ -387,8 +391,6 @@ a{
     .logo{
         top:-13px;
     }
-    .li{position: relative;
-        top: 30px;}
 
 }
 @media(min-width:950px){

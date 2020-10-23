@@ -105,7 +105,7 @@ html{
 }
 body{
     margin: auto;
-    height: 800px;
+    height: 190vw;
     position: relative;
     top:70px;
 }
@@ -124,9 +124,8 @@ body{
 }
 .bottom{
     background-color: #d6d6d6;
-    position: absolute;
-    bottom: -6200px;
-    height:40vw;
+    position: relative;
+    height:44vw;
     width: 100%;
     color: rgb(255, 255, 255);
     font-size: 1.3vw;
@@ -314,7 +313,8 @@ a{
         height: 190vw;
         top: 60px;
     }
-    .bottom{height: 350px;}
+    .bottom{height: 52vw;
+    }
 
 
       .menu{

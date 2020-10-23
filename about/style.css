@@ -327,6 +327,7 @@ a{
     text-decoration: underline;
 }
 
+
 @media(min-width:1400px){
     body{height: 130vw;}
 }
@@ -367,6 +368,10 @@ a{
 
 
 @media(max-width:950px){
+
+    .li{
+        margin-top:25px;
+    }
 
     .global-nav {
         position: fixed;
@@ -532,7 +537,10 @@ a{
         height: 40px;
         width: 140px;
     }
-
+    .twi,.ins,.git{
+        height: 30px;
+        width: 30px;
+    }
 
 }
 
