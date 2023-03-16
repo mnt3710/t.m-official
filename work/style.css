@@ -76,7 +76,7 @@ main>div>div{
     position: relative;
 }
 .circle1{
-    top: 150px;
+    top: 160px;
     left: 25%;
     background-color: crimson;
 }
@@ -95,7 +95,7 @@ main>div>div{
 }
 
 .circle2{
-    top: 50px;
+    top: 150px;
     left: 45%;
 }
 
@@ -124,10 +124,11 @@ main>div>div{
     left: 45%;
 }
 main>div{
-    font-size: 2vw;
+    font-size: 52px;
+    line-height: 80px;
     color: white;
     text-align: center;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Caveat', cursive;
 }
 .main2,.main3,.main4{
     position: relative;
@@ -137,7 +138,13 @@ main>div{
     position: relative;
     bottom: 180px;
     text-align: center;
+
 }
+
+.main1>a:hover{
+  color: black;
+}
+
 .main2{
     right: 10%;
 }
