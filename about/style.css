@@ -175,10 +175,11 @@
 }
 
 .detail1,.detail2{
+    padding: 100px 100px;
     margin: auto;
     text-align: center;
-    font-size: 1.5vw;
-    font-family: 'Rock Salt', cursive;
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
     width: 28%;
     height: 800px;
     position: relative;
@@ -223,12 +224,6 @@ body{
     height: 145vw;
     position: relative;
     top:70px;
-}
-
-.ghost{
-    position: absolute;
-    top: 450px;
-    right: -100px;
 }
 
 .tm{
