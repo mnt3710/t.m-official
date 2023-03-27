@@ -1,0 +1,13 @@
+name: Add To GitHub projects
+on:
+  issue:
+    types:
+      - opened
+jobs:
+  add-to-project:
+    name: Add issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.3.0
+      with:
+        github-token: ${{ secrets.ORGANIZATION_GITHUB_TOKEN }}
