@@ -11,4 +11,4 @@ jobs:
       - uses: actions/add-to-project@v0.3.0
         with:
           project-url: https://github.com/users/mnt3710/projects/4/views/1
-          github-token: ${{ secrets.ORGANIZATION_GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
